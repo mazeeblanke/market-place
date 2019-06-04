@@ -165,6 +165,7 @@ code {
 .splashimg {
   height: 450px;
   margin-left: 56%;
+  width: 42%;
   margin-top: 60px;
   transition-timing-function: ease;
     transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);

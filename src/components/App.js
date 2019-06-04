@@ -19,7 +19,7 @@ class App extends React.Component {
 
     let h = reactLocalStorage.getObject('cart');
 
-    if (h && h.item.objectID) {
+    if (h && h.item && h.item.objectID) {
       this.setState({
         cart: h
       })
@@ -34,7 +34,7 @@ class App extends React.Component {
     this.setState({
       cart
     })
-    console.log(reactLocalStorage.setObject('cart', cart));
+    // console.log(reactLocalStorage.setObject('cart', cart));
   }
 
   render() {
